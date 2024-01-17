@@ -43,6 +43,7 @@ services:
     # There are images for x64, ARM64, ARM v7, ARM v6.
     # The Raspberry Pi is supported, including the latest 64-bit versions.
     # Replace "X.X" to target Lenpaste version.
+    # E.g. ghcr.io/lcomrade/lenpaste:1.3.1
     image: ghcr.io/lcomrade/lenpaste:X.X
     volumes:
       - "${PWD}/data:/data"
